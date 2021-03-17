@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact details</title>
+</head>
+
+<body>
+  <h2>Contact info</h2>
+  <pre>
+      Name:      <strong>Ramón Ramírez Vicioso</strong>
+      DNI:       <strong>05403827T</strong>
+      Phone:     <strong>(+34) 609 23 91 77</strong>
+      email:     <strong>ramon.rrv@gmail.com</strong>
+      Address:   <strong>Cipriano Sancho, 36, 3º D, 28017 - Madrid</strong>
+    </pre>
+  <!-- Better as a table? -->
+  <table cellspacing="10">
+    <tr>
+      <td>Name:</td>
+      <td><strong>Ramón Ramírez Vicioso</strong></td>
+    </tr>
+    <tr>
+      <td>DNI:</td>
+      <td><strong>05403827T</strong></td>
+    </tr>
+    <tr>
+      <td>Phone:</td>
+      <td><strong>(+34) 609 23 91 77</strong></td>
+    </tr>
+    <tr>
+      <td>email:</td>
+      <td><strong>ramon.rrv@gmail.com</strong></td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td><strong>Cipriano Sancho, 36, 3º D, 28017 - Madrid - Spain</strong></td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Send me an email with your data and message, and I'll answer you</h3>
+  <form action="mailto:ramon.rrv@gmail.com" enctype="text/plain" method="post">
+    <label for="">Your Name:</label>
+    <input type="text" name="Your name is" value=""><br>
+    <label for="">Your email address:</label>
+    <input type="email" name="Your email is" value=""><br>
+    <label for="">Your message:</label><br>
+    <textarea name="Your message is" rows="5" cols="40"></textarea><br>
+    <input type="submit" name="" value="Send">
+  </form>
+</body>
+
+</html>
